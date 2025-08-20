@@ -155,8 +155,13 @@ a{
 /* ========== Герой ========== */
 .hero{
   position:relative; 
-  padding: clamp(48px, 8vw, 100px) 0 40px; 
+  padding: clamp(24px, 8vw, 50px) 0 20px;  
   overflow:hidden;
+}
+.hero__title {
+   margin: auto;
+   width: 1140px;
+   margin-bottom: 30px;
 }
 .hero__grid{
   display:grid; 
@@ -579,6 +584,7 @@ h1{
     grid-template-columns:1fr;
   }
 }
+
 
 
 
