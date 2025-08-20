@@ -63,7 +63,7 @@ if (form) {
     e.preventDefault();
 
     const data = Object.fromEntries(new FormData(form).entries());
-    if (!data.name  !data.phone  !data.message) {
+    if (!data.name , !data.phone , !data.message) {
       formStatus.textContent = 'Пожалуйста, заполните все поля.';
       formStatus.style.color = '#ff6b6b';
       return;
@@ -79,4 +79,5 @@ if (form) {
 
 // Текущий год в футере
 const yearSpan = document.getElementById('year');
+
 if (yearSpan) yearSpan.textContent = new Date().getFullYear();
