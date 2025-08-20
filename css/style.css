@@ -164,7 +164,7 @@ a{
    margin-bottom: 30px;
 }
 .hero__grid{
-  display:grid; 
+  display:flex; 
   grid-template-columns: 1.05fr .95fr; 
   gap: clamp(16px, 4vw, 48px); 
   align-items:center;
@@ -584,6 +584,7 @@ h1{
     grid-template-columns:1fr;
   }
 }
+
 
 
 
