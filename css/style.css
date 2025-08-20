@@ -156,7 +156,7 @@ a{
 /* ========== Герой ========== */
 .hero{
   position:relative; 
-  padding: clamp(24px, 8vw, 50px) 0 20px; 
+  padding: clamp(24px, 8vw, 0) 0 20px; 
   overflow:hidden;
 }
 .hero__title {
@@ -531,7 +531,7 @@ h1{
 }
 .fab__btn--accent{
    background:rgba(0, 0, 0, 0.225); 
-   color:#08110d;
+   color:#ffffff;
 }
 
 /* Мобильная навигация */
@@ -590,4 +590,5 @@ h1{
   .cards{
     grid-template-columns:1fr;
   }
+
 }
