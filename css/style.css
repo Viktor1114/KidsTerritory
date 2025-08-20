@@ -138,7 +138,6 @@ a{
 }
 
 .nav__burger{
-   display:none; 
    width:42px; 
    height:42px; 
    border:1px solid var(--stroke); 
@@ -571,4 +570,5 @@ h1{
     grid-template-columns:1fr;
   }
 }
+
 
