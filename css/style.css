@@ -527,11 +527,12 @@ h1{
    background: rgba(0, 0, 0, 0.225); 
    border:1px solid var(--stroke); 
    box-shadow:var(--shadow); 
+   color: #4fd1a5;
    font-weight:800;
 }
 .fab__btn--accent{
    background:rgba(0, 0, 0, 0.225); 
-   color:#ffffff;
+   color:#6aa8ff;
 }
 
 /* Мобильная навигация */
@@ -592,3 +593,4 @@ h1{
   }
 
 }
+
