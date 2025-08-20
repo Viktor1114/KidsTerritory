@@ -532,7 +532,7 @@ h1{
   }
   .nav__links.open{
     display:flex;                /* включаем flex */
-    transform:translateY(0);
+    max-height: 500px;
     opacity:1;
     pointer-events:auto;
   }
@@ -571,3 +571,4 @@ h1{
     grid-template-columns:1fr;
   }
 }
+
