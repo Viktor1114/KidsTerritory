@@ -517,49 +517,57 @@ h1{
 /* Мобильная навигация */
 @media (max-width: 960px){
   .nav__links{
-    position:fixed; 
-    inset:64px 12px auto 12px; 
-    background:var(--card); 
-    border:1px solid var(--stroke); 
+    position:fixed;
+    inset:64px 12px auto 12px;
+    background:var(--card);
+    border:1px solid var(--stroke);
     border-radius:14px;
-    display:none; 
-    flex-direction:column; 
+    flex-direction:column;
     padding:10px;
+    z-index:999;                 /* чтобы всегда было поверх */
+    transform:translateY(-10px); /* для анимации */
+    opacity:0;
+    pointer-events:none;
+    transition:.25s ease;
   }
   .nav__links.open{
-   display:flex;
-   }
+    display:flex;                /* включаем flex */
+    transform:translateY(0);
+    opacity:1;
+    pointer-events:auto;
+  }
+
   .nav__burger{
-   display:inline-block;
-   }
+    display:inline-block;
+  }
   .hero__grid{
-   grid-template-columns:1fr;
-   }
+    grid-template-columns:1fr;
+  }
   .hero__card--overlay{
-   position:relative; 
-   right:auto; 
-   bottom:auto; 
-   width:100%; 
-   transform:none; 
-   margin-top:12px;
-   }
+    position:relative;
+    right:auto;
+    bottom:auto;
+    width:100%;
+    transform:none;
+    margin-top:12px;
+  }
   .cards{
-   grid-template-columns:1fr 1fr;
-   }
+    grid-template-columns:1fr 1fr;
+  }
   .benefits{
-   grid-template-columns:1fr;
-   }
+    grid-template-columns:1fr;
+  }
   .benefit{
-   grid-template-columns:1fr;
-   }
+    grid-template-columns:1fr;
+  }
   .contacts{
-   grid-template-columns:1fr;
-   }
+    grid-template-columns:1fr;
+  }
 }
 
 /* Маленькие экраны */
 @media (max-width: 540px){
   .cards{
-   grid-template-columns:1fr;
-   }
+    grid-template-columns:1fr;
+  }
 }
