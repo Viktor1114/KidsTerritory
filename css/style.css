@@ -461,6 +461,7 @@ h1{
 
 /* Футер */
 .site-footer{
+   width: auto;
    padding:28px 0 18px; 
    border-top:1px solid var(--stroke); 
    background:linear-gradient(180deg, transparent, rgba(0,0,0,.12));
@@ -593,4 +594,5 @@ h1{
   }
 
 }
+
 
