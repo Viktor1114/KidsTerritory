@@ -160,7 +160,7 @@ a{
 }
 .hero__title {
    margin: auto;
-   width: 1140px;
+   max-width: 1140px;
    margin-bottom: 30px;
 }
 .hero__grid{
@@ -582,6 +582,7 @@ h1{
     grid-template-columns:1fr;
   }
 }
+
 
 
 
