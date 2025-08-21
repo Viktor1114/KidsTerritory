@@ -417,6 +417,7 @@ h1{
    margin:0 0 12px;
 }
 .contact-list li{
+   display: flex;
    margin:6px 0;
 }
 .contact-list span{
@@ -594,5 +595,6 @@ h1{
   }
 
 }
+
 
 
