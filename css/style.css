@@ -405,6 +405,7 @@ h1{
    gap:20px;
 }
 .contacts__card{
+   widht: auto;
    border:1px solid var(--stroke); 
    border-radius:16px; 
    padding:18px; 
@@ -593,6 +594,7 @@ h1{
   }
 
 }
+
 
 
 
