@@ -380,6 +380,8 @@ h1{
 
 /* CTA */
 .cta{
+   max-width:var(--maxw); 
+   margin:0 auto; 
    padding: clamp(40px, 6vw, 80px) 0; 
    background: radial-gradient(600px 200px at 20% 0%, rgba(106,168,255,.18), transparent);
 }
