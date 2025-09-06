@@ -328,6 +328,7 @@ h1{
 }
 .gallery__item img{
    transition: transform .3s ease;
+   border-radius:14px;
 }
 .gallery__item:hover img{
    border-radius:14px;
