@@ -82,11 +82,12 @@ a{
 }
 .btn--ghost:hover{
    border-color:var(--accent); 
-   color:var(--accent)
+   color:var(--accent);
+   border:1px solid var(--stroke);
 }
 .btn--accent:hover{
    filter:brightness(1.05); 
-   transform:translateY(-1px)
+   transform:translateY(-1px);
 }
 .btn--sm{
    padding:.6rem .8rem; 
