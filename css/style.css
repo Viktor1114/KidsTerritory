@@ -468,7 +468,8 @@ h1{
    background:linear-gradient(180deg, transparent, rgba(0,0,0,.12));
 }
 .footer__grid{
-   display: block;  
+   display: grid;  
+   gap:16px;
    align-items:center;
 }
 .footer__logo {
