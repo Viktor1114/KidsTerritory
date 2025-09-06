@@ -330,6 +330,7 @@ h1{
    transition: transform .3s ease;
 }
 .gallery__item:hover img{
+   border-radius:14px;
    transform: scale(1.04);
 }
 
